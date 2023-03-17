@@ -5,6 +5,6 @@
 Một số Web CTF mình đã làm: Mảng RE 
   - picoctf.org   
   - adworld.xctf.org.cn   
-  - ctflearn   
+  - ctflearn.com   
   - reversing.kr   
   - crackmes.one   
