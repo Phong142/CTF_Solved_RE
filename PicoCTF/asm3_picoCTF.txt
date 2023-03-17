@@ -1,0 +1,39 @@
+*** test.s ***
+.intel_syntax noprefix
+.global asm3
+asm3:
+		push   ebp
+		mov    ebp,esp
+		xor    eax,eax
+		mov    ah,BYTE PTR [ebp+0xb]
+		shl    ax,0x10
+		sub    al,BYTE PTR [ebp+0xd]
+		add    ah,BYTE PTR [ebp+0xc]
+		xor    ax,WORD PTR [ebp+0x12]
+		nop
+		pop    ebp
+		ret    
+
+0xba6c5a02,0xd101e3dd,0xbb86a173
+08 09 0A 0B	0C 0D 0E 0F	10 11 12 13 	
+02 5a 6c ba     dd e3 01 d1     73 a1 86 bb
+
+08	0A	0C	0E	10	12
+5a02	ba6c	e3dd	d101	a173	bb86
+
+*** main.c ***
+#include <stdio.h>
+
+int asm3(int, int, int);
+
+int main(int argc, char argv[])
+{
+    printf("0x%x\n", asm3(0xba6c5a02,0xd101e3dd,0xbb86a173));
+    return 0;
+}
+
+*** compile ***
+gcc -masm=intel -m32 -c test.S -o test.o
+gcc -m32 -c main.c -o main.o
+gcc -m32 test.o main.o -o main
+./main

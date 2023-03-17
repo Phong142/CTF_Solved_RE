@@ -1,0 +1,38 @@
+string=[None]*32
+
+string[0]  = 'd' 
+string[29] = 'a' 
+string[4]  = 'r' 
+string[2]  = '5' 
+string[23] = 'r' 
+string[3]  = 'c' 
+string[17] = '4' 
+string[1]  = '3' 
+string[7]  = 'b' 
+string[10] = '_' 
+string[5]  = '4' 
+string[9]  = '3' 
+string[11] = 't' 
+string[15] = 'c' 
+string[8]  = 'l' 
+string[12] = 'H' 
+string[20] = 'c' 
+string[14] = '_' 
+string[6]  = 'm' 
+string[24] = '5' 
+string[18] = 'r' 
+string[13] = '3' 
+string[19] = '4' 
+string[21] = 'T' 
+string[16] = 'H' 
+string[27] = '6' 
+string[30] = 'f' 
+string[25] = '_' 
+string[22] = '3' 
+string[28] = 'd' 
+string[26] = 'f' 
+string[31] = '4'
+
+
+
+print("picoCTF{{{}}}".format(''.join(string)))
