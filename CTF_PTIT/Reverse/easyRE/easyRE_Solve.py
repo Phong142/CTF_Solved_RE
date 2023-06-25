@@ -6,7 +6,7 @@ f = [None] * 29
 file = open("save.txt", "w")
 for i in range(32,128):
     payload = flag.replace(b"x", chr(i).encode("ascii"))
-    process = subprocess.Popen(["EasyRE.exe"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.Popen(["easyRE.exe"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     process.stdout.read(36)
     process.stdin.write(payload + b"\r\n")
     process.stdin.flush()
