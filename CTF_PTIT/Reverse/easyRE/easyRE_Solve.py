@@ -29,6 +29,7 @@ with open("save.txt", "r") as file:                     #read file saved
         i+=1
       cnt+=1
 real_flag = ""
+file.close()
 for i in f:
   real_flag += chr(i)
 print(f'ATTT{{{real_flag}}}')
