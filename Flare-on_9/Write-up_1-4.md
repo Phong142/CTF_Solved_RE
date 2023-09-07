@@ -70,7 +70,7 @@
 * Trong đoạn encode kia chúng ta sẽ thấy một câu lệnh khá lạ **`v2(v2)`**, nó đang tự gọi đến chính nó sau khi nhận giá trị từ **agrument[i] + v5[i]**. Vậy ở đây, mỗi **byte(v2)** sẽ phải là một câu lệnh để nó có thể thực hiện đúng được chương trình của mình.  
 * Vậy có bao nhiêu câu lệnh mà khi nó chỉ có 1 byte mà vẫn hoạt động. Có lẽ chúng ta đang nghĩ đến 2 câu lệnh là **ret** và **nop**. Chúng ta sẽ thử decode bằng lệnh **nop** trước. Với opcode của **nop = 0x90**, chúng ta sẽ thử decode bằng python.  
 ![img](img/chall4_4.png)  
-* Có vẻ như lệnh **nop** với **opcode = 0x90** không đúng. Chúng ta sẽ thử tiếp với lệnh **ret** voié **opcode = 0xC3**  
+* Có vẻ như lệnh **nop** với **opcode = 0x90** không đúng. Chúng ta sẽ thử tiếp với lệnh **ret** với **opcode = 0xC3**  
 ![img](img/chall4_5.png)  
 * Lần này đã ra một đoạn plaintext, chúng ta sẽ thử truyền vào đối số của file xem có ra flag hay không?  
 ![img](img/chall4_6.png)  
