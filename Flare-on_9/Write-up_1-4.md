@@ -58,7 +58,7 @@
 * Sau khi check thì thứ tự đó sẽ là: **LLURULDUL**. Và sau đó nhập chuỗi **gimme flag pls?** để check. Đã có hướng làm, chúng ta sẽ thử để xem có may mắn hay không?  
 * Sau khi hoàn thành các bước trên, chúng ta đã có flag.  
 ![img](img/chall3_6.png)  
->***Flag: aaa***  
+>***Flag: U_cRackeD_th1$_maG1cBaLL_!!_@flare-on.com***  
 
 **4. Challenge 4: 04_darn_mice**  
 * Bài cho chúng ta 1 file **darn_mice.exe**  
