@@ -13,7 +13,7 @@
 ![img](img/chall1_4.png)  
 ![img](img/chall1_5.png)   
 * Sau khi tìm đến giá trị thứ 57 trong file `word.js` chúng ta đã thấy một chuỗi **flareonisallaboutcats**. Để đúng với flag của bài, chúng ta sẽ chỉ nối chuỗi đã tìm được với **@flare-on.com** là sẽ ra flag
->***Flag: flareonisallaboutcats@flare-on.com***  
+>***Flag: `flareonisallaboutcats@flare-on.com`***  
 
 **2. Challenge 2: 02_PixelPoker**  
 * Đề bài cũng cho chúng ta một file `02_PixelPoker.zip`, bên trong có một file **PixelPoker.exe** và một file **readme.txt**  
@@ -39,7 +39,7 @@
 ![img](img/chall2_7.png)
 * Chúng ta tìm được tọa độ cần click là `91,313`. Sau khi click đúng vào tọa độ đó thì flag sẽ được hiện ra.  
 ![img](img/chall2_8.png)  
->***Flag: w1nN3r_W!NneR_cHick3n_d1nNer@flare-on.com***  
+>***Flag: `w1nN3r_W!NneR_cHick3n_d1nNer@flare-on.com`***  
 
 **3. Challeng 3: 03_magic8ball**
 * Đề bài cho chúng ta một file `03_magic8ball.zip`, bên trong có 1 file **Magic8Ball.exe** và khá nhiều file **.dll**  
@@ -58,7 +58,7 @@
 * Sau khi check thì thứ tự đó sẽ là: **LLURULDUL**. Và sau đó nhập chuỗi **gimme flag pls?** để check. Đã có hướng làm, chúng ta sẽ thử để xem có may mắn hay không?  
 * Sau khi hoàn thành các bước trên, chúng ta đã có flag.  
 ![img](img/chall3_6.png)  
->***Flag: U_cRackeD_th1$_maG1cBaLL_!!_@flare-on.com***  
+>***Flag: `U_cRackeD_th1$_maG1cBaLL_!!_@flare-on.com`***  
 
 **4. Challenge 4: 04_darn_mice**  
 * Bài cho chúng ta 1 file **darn_mice.exe**  
@@ -76,4 +76,4 @@
 ![img](img/chall4_6.png)  
 * Và thế là chúng ta đã có flag cho bài này  
 [script](script_solve/chall4.py)  
->***Flag: i_w0uld_l1k3_to_RETurn_this_joke@flare-on.com***  
+>***Flag: `i_w0uld_l1k3_to_RETurn_this_joke@flare-on.com`***  
