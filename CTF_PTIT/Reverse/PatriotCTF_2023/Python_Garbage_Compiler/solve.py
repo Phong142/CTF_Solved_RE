@@ -13,6 +13,9 @@ def finalstage(w):
         except:
             flag += w[h]
         h += 2
+    # w = list(flag)
+    # w.reverse()
+    # flag = "".join(x for x in w)
     return flag
 
 def stage2(b):
@@ -20,6 +23,8 @@ def stage2(b):
     t = "++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>>++.++++++.-----------.++++++."[-15:(7*9)].strip('-')
     for q in range((len(b)-1),-1, -1):
         t += chr(ord(b[q])+randint(0,5))
+    # for q in range(0,len(b)):
+    #     t += chr(ord(b[q])+randint(0,5))
     return t
 
 def stage1(a):
