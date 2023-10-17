@@ -46,7 +46,7 @@
 ![img](img/chall6_17.png)  
 * Vậy là chúng ta đã giải xong bài này và nhận được flag
 * Đây là một challenge khá khó và cần biết cách sử dụng công cụ một cách linh hoạt cũng cần đọc hiểu code khá nhiều.
->***Flag: `M1x3d_M0dE_4_l1f3@flare-on.comm`***  
+>***Flag: `M1x3d_M0dE_4_l1f3@flare-on.com`***  
 
 
 
