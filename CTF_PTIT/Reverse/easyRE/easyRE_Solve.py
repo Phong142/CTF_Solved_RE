@@ -6,7 +6,7 @@ f = [None] * 29
 file = open("save.txt", "w")
 for i in range(32,128):                                 #brute force (if array[i] == 0 ---> array[i] = 32-128)
     payload = flag.replace(b"x", chr(i).encode("ascii"))
-    process = subprocess.Popen(["easyRE.exe"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)       ##open file easyRE
+    process = subprocess.Popen(["D:\Code_CTF\CTF_Solved_RE\CTF_PTIT\Reverse\easyRE\easyRE.exe"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)       ##open file easyRE
     process.stdout.read(36)                             #read 36 bytes stdout
     process.stdin.write(payload + b"\r\n")              #write flag stdin
     process.stdin.flush()
